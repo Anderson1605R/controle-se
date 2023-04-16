@@ -1,0 +1,43 @@
+@import url("style.css");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  color: var(--white);
+}
+body {
+  background-color: var(--main-color);
+  position: relative;
+}
+.main-mentoria {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 8px;
+  font-weight: 600;
+}
+p a {
+  font-weight: 600;
+  font-size: 18px;
+}
+.btn-mentor {
+  width: 300px;
+  height: 100px;
+  padding: 15px;
+  border-radius: 8px;
+  background-color: var(--background);
+  cursor: pointer;
+}
+.btn-mentor:hover {
+  background-color: var(--main-color);
+}

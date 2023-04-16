@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Informação</title>
+    <link rel="stylesheet" href="info.css" />
+  </head>
+  <body>
+    <main class="main-info">
+      <div class="back">
+        <p><a href="index.html">voltar </a></p>
+      </div>
+      <h1>Informações</h1>
+      <section class="inputs">
+        <section class="inputs-entry">
+          <h2>Entradas</h2>
+          <div class="entry commom-input">
+            <label for="entry-input">Nome</label>
+            <input type="text" name="entry-input" id="entry-input" />
+            <label for="entry-number">Valor</label>
+            <input type="number" name="entry-number" id="entry-number" />
+            <button id="btn-entry">Enviar</button>
+          </div>
+        </section>
+        <section class="inputs-output">
+          <h2>Saídas</h2>
+          <div class="output commom-input">
+            <label for="output-input">Nome</label>
+            <input type="text" name="output-input" id="output-input" />
+            <label for="entry-number">Valor</label>
+            <input type="number" name="output-number" id="output-number" />
+            <button id="btn-out">Enviar</button>
+          </div>
+        </section>
+      </section>
+      <div id="res-entry"></div>
+      <div id="res-out"></div>
+      <button><a href="controle.html">Enviar</a></button>
+    </main>
+    <script src="info.js"></script>
+  </body>
+</html>

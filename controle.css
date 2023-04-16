@@ -1,0 +1,62 @@
+@import url("style.css");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  color: var(--white);
+}
+body {
+  background-color: var(--main-color);
+  position: relative;
+}
+.main-controle {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 8px;
+}
+p a {
+  font-weight: 600;
+  font-size: 18px;
+}
+.share {
+  padding: 10px;
+  border: none;
+  background-color: var(--background);
+  width: 100px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+.share:hover {
+  background-color: #592ca0;
+}
+select {
+  color: var(--white);
+  width: 250px;
+  height: 30px;
+  background-color: var(--background);
+  border-radius: 8px;
+  outline: none;
+}
+option {
+  color: var(--white);
+}
+h2 {
+  font-size: 16px;
+  font-weight: 600;
+}
+.capital {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}

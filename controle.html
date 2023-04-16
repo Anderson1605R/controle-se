@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Controle</title>
+    <link rel="stylesheet" href="controle.css" />
+  </head>
+  <body>
+    <main class="main-controle">
+      <div class="back">
+        <p><a href="index.html">voltar </a></p>
+      </div>
+      <h1>Controle Gerencial</h1>
+      <section class="selection">
+        <select name="month" id="month">
+          <option value="mes">Abril</option>
+          <option value="mes">JANEIRO</option>
+          <option value="mes">FEVEREIRO</option>
+          <option value="mes">MARÇO</option>
+          <option value="mes">ABRIL</option>
+          <option value="mes">MAIO</option>
+          <option value="mes">JUNHO</option>
+          <option value="mes">JULHO</option>
+          <option value="mes">AGOSTO</option>
+          <option value="mes">SETEMBRO</option>
+          <option value="mes">OUTUBRO</option>
+          <option value="mes">NOVEMBRO</option>
+          <option value="mes">DEZEMBRO</option>
+        </select>
+      </section>
+      <section class="capital">
+        <div class="entrys">
+          <h2>Entradas:</h2>
+          <p>R$<span class="value">850.00</span></p>
+        </div>
+        <div class="outputs">
+          <h2>Saídas:</h2>
+          <p>R$<span class="value">450,00</span></p>
+        </div>
+        <div class="profit">
+          <h2>Lucro:</h2>
+          <p>R$<span class="value">400,00</span></p>
+        </div>
+      </section>
+      <button class="share">Compartilhar</button>
+    </main>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"
+      integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="controle.js"></script>
+  </body>
+</html>
